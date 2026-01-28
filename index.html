@@ -2,103 +2,114 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta
-      name="description"
-      content="BAKNOVA Group of Institutes — coming soon. Admissions and updates."
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="BAKNOVA Group of Institutes — Admissions opening soon." />
     <title>BAKNOVA — Coming Soon</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet" />
+    
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+
     <div class="stage">
-      <header class="topbar">
+      <header class="topbar fade-in">
         <a class="logo" href="#" aria-label="BAKNOVA home">
-          <img src="/baknova.png" alt="BAKNOVA logo" width="220" />
+          <img src="baknova.png" alt="BAKNOVA logo" />
         </a>
         <nav class="top-actions">
-          <a class="ghost" href="#notify">Notify me</a>
+          <a class="ghost-btn" href="mailto:mail.baknova@gmail.com">Contact Us</a>
         </nav>
       </header>
 
       <main class="hero">
         <div class="hero-inner">
-          <section class="left">
-            <h1>For a brighter future in education</h1>
+          
+          <section class="left fade-in-up">
+            <span class="pill">🚀 Admissions Opening Soon</span>
+            <h1>For a brighter future in <span class="text-gradient">Education</span></h1>
             <p class="lead">
-              BAKNOVA Group of Institutes — expert educational consultancy to
-              help you achieve your academic goals and secure a bright future.
+              We offer expert educational consultancy to help you achieve your academic goals. 
+              Join the <strong>BAKNOVA Group of Institutes</strong> family.
             </p>
+            
             <ul class="features">
-              <li>Thoughtful design</li>
-              <li>Fast onboarding</li>
-              <li>Secure & reliable</li>
+              <li>
+                <span class="icon">✨</span>
+                <span>Expert Consultancy</span>
+              </li>
+              <li>
+                <span class="icon">🎓</span>
+                <span>Career Guidance</span>
+              </li>
+              <li>
+                <span class="icon">🛡️</span>
+                <span>Secure Future</span>
+              </li>
             </ul>
+
             <div class="social">
-              <a href="https://twitter.com" aria-label="Twitter" class="s"
-                >Twitter</a
-              >
-              <a href="https://linkedin.com" aria-label="LinkedIn" class="s"
-                >LinkedIn</a
-              >
+              <span class="social-label">Follow us:</span>
+              <a href="#" class="s-link">Twitter</a>
+              <a href="#" class="s-link">LinkedIn</a>
+              <a href="#" class="s-link">Instagram</a>
             </div>
           </section>
 
-          <aside class="right">
-            <div class="card">
-              <img
-                class="hero-banner"
-                src="/baknova-banner.png"
-                alt="BAKNOVA — education banner"
-              />
-              <h2>Launch & Admissions</h2>
-              <div id="countdown" class="countdown" aria-live="polite">
-                <div><span id="days">00</span><small>Days</small></div>
-                <div><span id="hours">00</span><small>Hours</small></div>
-                <div><span id="minutes">00</span><small>Minutes</small></div>
-                <div><span id="seconds">00</span><small>Seconds</small></div>
+          <aside class="right fade-in-up delay">
+            <div class="glass-card">
+              <div class="banner-wrapper">
+                 <img class="card-banner" src="baknova-banner.png" alt="Education Banner" />
+                <div class="banner-overlay"></div>
               </div>
+              
+              <div class="card-content">
+                <h2>Launch Countdown</h2>
+                
+                <div id="countdown" class="countdown" aria-live="polite">
+                  <div class="time-box"><span id="days">00</span><small>Days</small></div>
+                  <div class="time-box"><span id="hours">00</span><small>Hours</small></div>
+                  <div class="time-box"><span id="minutes">00</span><small>Mins</small></div>
+                  <div class="time-box"><span id="seconds">00</span><small>Secs</small></div>
+                </div>
 
-              <form id="notify" class="notify" novalidate>
-                <label for="email" class="visually-hidden">Email address</label>
-                <input
-                  id="email"
-                  type="email"
-                  placeholder="Enter your email"
-                  required
-                />
-                <button id="submit">Notify me</button>
-                <p id="msg" class="msg" aria-live="polite"></p>
-              </form>
-              <small class="notes">No spam. Unsubscribe anytime.</small>
+                <form id="notify" class="notify-form" novalidate>
+                  <div class="input-group">
+                    <input id="email" type="email" placeholder="Enter your email address" required />
+                    <button id="submit" type="submit">
+                      Notify Me <span class="arrow">→</span>
+                    </button>
+                  </div>
+                  <p id="msg" class="msg" aria-live="polite"></p>
+                </form>
+                
+                <p class="privacy-note">We respect your privacy. No spam.</p>
+              </div>
             </div>
           </aside>
         </div>
       </main>
 
-      <footer class="foot">
+      <footer class="foot fade-in">
         <div class="contact-bar">
-          <a href="tel:9085489061">📞 9085489061</a>
-          <span class="sep">|</span>
+          <a href="tel:9085489061">📞 +91 9085489061</a>
+          <span class="sep">•</span>
           <a href="mailto:mail.baknova@gmail.com">✉️ mail.baknova@gmail.com</a>
-          <span class="sep">|</span>
-          <a href="https://www.baknova.com" target="_blank" rel="noopener"
-            >🌐 www.baknova.com</a
-          >
+          <span class="sep">•</span>
+          <a href="https://www.baknova.com">🌐 www.baknova.com</a>
         </div>
         <div class="copyright">
-          © <span id="year"></span> BAKNOVA Group of Institutes. All rights
-          reserved.
+          © <span id="year"></span> BAKNOVA Group of Institutes. All rights reserved.
         </div>
+        <br>
+        <div class="copyright">Crafted with ❤️ by <a href="https://abhijitxdev.in" style="color: white;">AbhijitxDev</a></div>
       </footer>
     </div>
 
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
   </body>
 </html>
