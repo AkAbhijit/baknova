@@ -1,5 +1,5 @@
 // --- Configuration ---
-const LAUNCH_DAYS = 14; // Number of days until launch
+const LAUNCH_DAYS = 30; // Number of days until launch
 const STORAGE_KEY = 'baknova_launch_date';
 
 // --- Logic ---
