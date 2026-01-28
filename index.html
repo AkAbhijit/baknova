@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="BAKNOVA Group of Institutes — coming soon. Admissions and updates."
+    />
+    <title>BAKNOVA — Coming Soon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="stage">
+      <header class="topbar">
+        <a class="logo" href="#" aria-label="BAKNOVA home">
+          <img src="assets/baknova.png" alt="BAKNOVA logo" width="220" />
+        </a>
+        <nav class="top-actions">
+          <a class="ghost" href="#notify">Notify me</a>
+        </nav>
+      </header>
+
+      <main class="hero">
+        <div class="hero-inner">
+          <section class="left">
+            <h1>For a brighter future in education</h1>
+            <p class="lead">
+              BAKNOVA Group of Institutes — expert educational consultancy to
+              help you achieve your academic goals and secure a bright future.
+            </p>
+            <ul class="features">
+              <li>Thoughtful design</li>
+              <li>Fast onboarding</li>
+              <li>Secure & reliable</li>
+            </ul>
+            <div class="social">
+              <a href="https://twitter.com" aria-label="Twitter" class="s"
+                >Twitter</a
+              >
+              <a href="https://linkedin.com" aria-label="LinkedIn" class="s"
+                >LinkedIn</a
+              >
+            </div>
+          </section>
+
+          <aside class="right">
+            <div class="card">
+              <img
+                class="hero-banner"
+                src="assets/baknova-banner.png"
+                alt="BAKNOVA — education banner"
+              />
+              <h2>Launch & Admissions</h2>
+              <div id="countdown" class="countdown" aria-live="polite">
+                <div><span id="days">00</span><small>Days</small></div>
+                <div><span id="hours">00</span><small>Hours</small></div>
+                <div><span id="minutes">00</span><small>Minutes</small></div>
+                <div><span id="seconds">00</span><small>Seconds</small></div>
+              </div>
+
+              <form id="notify" class="notify" novalidate>
+                <label for="email" class="visually-hidden">Email address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="Enter your email"
+                  required
+                />
+                <button id="submit">Notify me</button>
+                <p id="msg" class="msg" aria-live="polite"></p>
+              </form>
+              <small class="notes">No spam. Unsubscribe anytime.</small>
+            </div>
+          </aside>
+        </div>
+      </main>
+
+      <footer class="foot">
+        <div class="contact-bar">
+          <a href="tel:9085489061">📞 9085489061</a>
+          <span class="sep">|</span>
+          <a href="mailto:mail.baknova@gmail.com">✉️ mail.baknova@gmail.com</a>
+          <span class="sep">|</span>
+          <a href="https://www.baknova.com" target="_blank" rel="noopener"
+            >🌐 www.baknova.com</a
+          >
+        </div>
+        <div class="copyright">
+          © <span id="year"></span> BAKNOVA Group of Institutes. All rights
+          reserved.
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
